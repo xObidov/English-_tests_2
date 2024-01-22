@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/mobil.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>English Test</title>
+  </head>
+  <body>
+    <div class="container">
+
+      <div class="heading_part_site">
+        <button class="rotate_btn" onclick="changeBackground()"><i class="fa-solid fa-rotate"></i></button>
+        <button class="dowlod_btn" id="myDowbtn" onclick="myDowlodbtn()"><i class="fa-solid fa-cloud-arrow-down"></i></button>
+      </div>
+      <div class="dowlod_page">
+        <textarea name="sdsfnslk" id="add_input" cols="40" rows="25" placeholder="Enter words..."></textarea>
+        <button class="add_btn" onclick="addTranslation()">Yuklash</button>
+      </div>
+
+      <div class="first_page">
+        <h1>Test Dasturi Ingliz Tili</h1>
+        <button class="submit" onclick="mySubmit()">BOSHLASH</button>
+      </div>
+
+      <div class="second_page">
+        <div class="second_content">
+          <h1 class="word">Hello</h1>
+          <div class="row">
+            <input placeholder="Answer" type="text" class="answer" />
+            <button class="submit_two" onclick="myResult()"><i class="fa-solid fa-check"></i></button>
+          </div>
+          <button class="end" onclick="myEnd()">Yakunlash</button>
+        </div>
+      </div>
+      <div class="result_page">
+        <h1 class="result_firs_txt">Berilgan testdan </h1>
+        <br>
+        <span class="true">10</span>
+        <h1 class="result_last_txt">tasi to'g'ri</h1>
+        <button class="return_btn end" onclick="returnBtn()"><i class="fa-solid fa-arrow-left"></i></button>
+      </div>
+    </div>
+    <script src="./js/index.js"></script>
+    <script src="./js/txt.js"></script>
+  </body>
+</html>

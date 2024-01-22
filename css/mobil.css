@@ -1,0 +1,9 @@
+@media(max-width: 450px){
+    .second_content, .first_page{
+        width: 350px;
+        height: 300px;
+    }
+    .result_page{
+        width: 350px;
+    }
+}
